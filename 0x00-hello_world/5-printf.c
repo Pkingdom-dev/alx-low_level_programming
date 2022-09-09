@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  *  main - Entry point
  *  My hello_world printf task.
  *  Return: Always 0 (Success)
