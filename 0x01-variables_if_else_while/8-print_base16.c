@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.hi>
 /**
  * main - entry point
  * Description - print base 16 numbers
@@ -6,12 +6,19 @@
  */
 int main(void)
 {
-	char base_16;
+	char base_16, base16;
 
-	for (base_16 = '0'; base_16 <= '9' && ('a' <= base_16 <= 'e'); base_16++)
+	for (base_16 = '0'; base_16 <= '9'; base_16++)
 	{
 		putchar(base_16);
 	}
+
+	base16 = 'a';
+	do {
+		putchar(base16);
+		base16++
+	} while (base16 <= 'f');
+
 	putchar('\n');
 	return (0);
 }
