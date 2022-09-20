@@ -16,8 +16,12 @@ int main(void)
 			{
 				putchar(first_digit);
 				putchar(second_digit);
-				putchar(',');
-				putchar(' ');
+
+				if (first_digit != '8')
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
