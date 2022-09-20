@@ -14,7 +14,8 @@ int main(void)
 		{
 			if (first_digit != second_digit)
 			{
-				putchar(first_digit second_digit);
+				putchar(first_digit);
+				putchar(second_digit);
 				putchar(',');
 				putchar(' ');
 			}
