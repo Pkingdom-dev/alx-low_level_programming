@@ -14,7 +14,7 @@ int main(void)
 		{
 			for (third_digit = '0'; third_digit <= '9'; third_digit++)
 			{
-				if ((first_digit < second_digit) && (first_digit < thrid_digit) && (second_digit < third_digit))
+				if ((first_digit < second_digit) && (first_digit < third_digit) && (second_digit < third_digit))
 				{
 					putchar(first_digit);
 					putchar(second_digit);
@@ -28,6 +28,6 @@ int main(void)
 			}
 		}
 	}
-
+	putchar('\n');
 	return (0);
 }
