@@ -19,7 +19,7 @@ int print_last_digit(int num)
 	{
 		digit = -digit;
 	}
-	
+
 	_putchar(digit + '0');
 
 	return (digit);
