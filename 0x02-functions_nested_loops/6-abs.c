@@ -3,10 +3,8 @@
  * _abs - function that computes the absolute value of an integer.
  * Return: Always o (success)
  */
-int _abs(int)
+int _abs(int num)
 {
-	int num;
-
 	if (num < 0)
 	{
 		return (num * -1);
